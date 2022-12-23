@@ -1,0 +1,21 @@
+.sidenav {
+  box-sizing: border-box;
+  height: calc(100vh - 118px - 114px);
+  width: 207px;
+  margin-top: 118px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+
+  overflow-x: hidden;
+  background: #c4d1dd;
+  border: 0.5px solid rgba(47, 56, 62, 0.2);
+}
+
+.left {
+  left: 0;
+}
+
+.right {
+  right: 0;
+}

@@ -1,0 +1,51 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 60%;
+  height: auto;
+
+  margin: auto;
+
+  min-height: 470px;
+
+  background-color: #c4d1dd;
+
+  border-radius: 22px;
+
+  box-shadow: 0 2px 7px #2f383e;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.title {
+  font-family: 'Rubik', sans-serif;
+  color: #2f383e;
+  font-weight: 400;
+  font-size: 20px;
+  margin-bottom: 35px;
+  text-align: center;
+}
+
+.subTitle {
+  font-family: 'Rubik', sans-serif;
+  color: #2f383e;
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: 35px;
+  text-align: center;
+}
+
+.toLogin {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+
+  width: 100%;
+}

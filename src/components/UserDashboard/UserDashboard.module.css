@@ -1,0 +1,162 @@
+.container {
+  height: 100%;
+  width: 100%;
+}
+
+.userContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+
+  width: 100%;
+  height: 256px;
+
+  margin-bottom: 30px;
+}
+
+.userPhoto {
+  width: 256px;
+  height: 256px;
+}
+
+.img {
+  max-width: 100% !important;
+  height: 100% !important;
+  max-height: 100% !important;
+  font-size: 256px !important;
+  color: #2f383e;
+}
+
+.user {
+  padding: 10px 10px 0px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.userName {
+  display: flex;
+  align-items: center;
+  font-family: Rubik;
+  font-size: 24px;
+  font-weight: 400;
+  color: #2f383e;
+
+  position: relative;
+
+  margin-bottom: 10px;
+}
+
+.userRole {
+  font-family: Rubik;
+  font-size: 20px;
+  font-weight: 400;
+  color: #2f383e;
+
+  margin-bottom: 10px;
+}
+
+.article {
+  display: flex;
+  flex-direction: row;
+
+  margin-bottom: 10px;
+}
+
+.articleText {
+  font-family: Rubik;
+  font-size: 20px;
+  font-weight: 400;
+  color: #2f383e;
+
+  margin-right: 10px;
+}
+
+.articleCount {
+  padding: 0px 15px;
+  background-color: #fff;
+  border: 1px solid #2f383e;
+  border-radius: 16px;
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.comment {
+  display: flex;
+  flex-direction: row;
+}
+
+.commentText {
+  font-family: Rubik;
+  font-size: 20px;
+  font-weight: 400;
+  color: #2f383e;
+
+  margin-right: 10px;
+}
+
+.commentCount {
+  padding: 0px 15px;
+  background-color: #fff;
+  border: 1px solid #2f383e;
+  border-radius: 16px;
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.articleTitle {
+  font-family: Rubik;
+  font-size: 24px;
+  font-weight: 400;
+  color: #2f383e;
+}
+
+.menu {
+  position: absolute;
+  left: 0px;
+  top: 30px;
+  z-index: 9999;
+
+  background-color: #ececec;
+  box-shadow: 0px 0px 1px 1px rgba(47, 56, 62, 0.85);
+
+  opacity: 1;
+
+  transition: opacity 0.1s linear;
+}
+
+.menuItem {
+  display: flex;
+  justify-content: space-between;
+
+  font-size: 14px;
+
+  width: 172px;
+  color: #3f3f3f;
+
+  padding: 10px 10px;
+
+  transition: color 0.1s linear;
+}
+
+.menuItem:hover {
+  color: #000;
+}
+
+.menuItemText {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menuItem:not(:first-child) {
+  border-top: 1px solid rgba(47, 56, 62, 0.55);
+}
+
+.menuClose {
+  opacity: 0;
+}

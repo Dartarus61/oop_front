@@ -1,0 +1,115 @@
+.title {
+  text-align: center;
+
+  font-family: 'Rubik';
+  font-weight: 500;
+  font-size: 24px;
+
+  margin-bottom: 12px;
+
+  color: #2f383e;
+}
+
+.body {
+  text-align: left;
+
+  font-family: 'Rubik';
+  font-weight: 300;
+  font-size: 14px;
+
+  margin-bottom: 20px;
+
+  color: #000000;
+
+  background-color: #fff;
+  border-radius: 14px;
+
+  padding: 15px;
+
+  height: 85%;
+  width: 100%;
+
+  overflow-y: scroll;
+}
+
+.text {
+  margin-left: 20px;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.list {
+  margin-left: 20px;
+  font-size: 20px;
+}
+
+.listItem {
+  margin-bottom: 5px;
+}
+
+.buttonContainer {
+  display: flex;
+  gap: 30%;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  height: auto;
+  min-width: 200px;
+
+  background-color: #8fabbf;
+  border-radius: 13px;
+
+  color: #2f383e;
+
+  padding: 9px 13px;
+  margin-top: 20px;
+
+  font-family: 'Rubik', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+
+  text-align: center;
+
+  cursor: pointer;
+
+  transition: background 0.1s linear;
+}
+
+.button:hover {
+  background-color: #afc9db;
+}
+
+.buttonDissabled {
+  width: 100%;
+  height: auto;
+  min-width: 200px;
+
+  background-color: #d0d0d0;
+  border-radius: 13px;
+
+  color: #838383;
+
+  outline: none;
+  border: none;
+
+  padding: 15px 50px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+
+  font-family: 'Rubik', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+
+  text-align: center;
+
+  cursor: pointer;
+
+  transition: background 0.1s linear;
+}

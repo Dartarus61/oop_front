@@ -1,0 +1,26 @@
+.section {
+  box-sizing: border-box;
+  width: 138px;
+  height: 38px;
+  margin: 5px;
+  display: inline-block;
+  list-style: none;
+
+  background: #9eb7c9;
+  border: 2px solid #2f383e;
+  border-radius: 50px;
+}
+
+.sectionText {
+  width: 74px;
+  height: 19px;
+  margin: 8px 32px 8px 32px;
+
+  font-family: 'Rubik', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #2f383e;
+}

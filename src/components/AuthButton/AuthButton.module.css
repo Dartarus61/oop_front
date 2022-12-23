@@ -1,0 +1,59 @@
+.button {
+  width: 100%;
+  height: auto;
+  min-width: 200px;
+
+  background-color: #8fabbf;
+  border-radius: 13px;
+
+  color: #2f383e;
+
+  outline: none;
+  border: none;
+
+  padding: 15px 50px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+
+  font-family: 'Rubik', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+
+  text-align: center;
+
+  cursor: pointer;
+
+  transition: background 0.1s linear;
+}
+
+.button:hover {
+  background-color: #afc9db;
+}
+
+.buttonDissabled {
+  width: 100%;
+  height: auto;
+  min-width: 200px;
+
+  background-color: #d0d0d0;
+  border-radius: 13px;
+
+  color: #838383;
+
+  outline: none;
+  border: none;
+
+  padding: 15px 50px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+
+  font-family: 'Rubik', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+
+  text-align: center;
+
+  cursor: pointer;
+
+  transition: background 0.1s linear;
+}

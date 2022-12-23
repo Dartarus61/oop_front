@@ -1,0 +1,128 @@
+.card {
+  width: 350px;
+  height: 250px;
+  margin: 10px 20px 10px 10px;
+
+  display: inline-block;
+
+  scale: (1);
+  transition: scale 0.2s linear;
+}
+
+.card:hover {
+  cursor: pointer;
+  scale: 1.1;
+}
+
+.rectangle {
+  width: 350px;
+  height: 97px;
+  margin-top: 0px;
+  background-image: url('../../assets/gradBlue2.jpg');
+  padding: 2px;
+}
+
+.cardHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 7px 10px 0px 4px;
+}
+
+.tagContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.date {
+  display: flex;
+  align-items: center;
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  font-style: bold;
+
+  margin-right: 10px;
+
+  width: 55px;
+  height: 17px;
+  color: #ffffff;
+}
+
+.cardTitle {
+  font-family: 'Rubik';
+  font-style: bold;
+  font-weight: 500;
+  font-size: 24px;
+
+  margin-top: 26px;
+  margin-left: 12px;
+
+  color: #ffffff;
+}
+
+.cardBody {
+  width: 350px;
+  height: 153px;
+  background: #ccd0d3;
+
+  margin-top: 0px;
+  padding: 10px;
+}
+
+.bodyTitle {
+  font-family: Rubik;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.bodyText {
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 10px;
+}
+
+.bodyFooter {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  height: 30%;
+}
+
+.commentCount {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  width: 20%;
+}
+
+.user {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  text-align: right;
+  width: 80%;
+
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 300;
+
+  color: #4d4d4d;
+}
+
+.commentImg {
+  width: 15px;
+  height: auto;
+  margin-left: 5px;
+}
+
+.count {
+  font-family: Rubik;
+  font-size: 14px;
+  font-weight: 300;
+
+  color: #4d4d4d;
+}

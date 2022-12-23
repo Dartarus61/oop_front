@@ -1,0 +1,13 @@
+.main {
+  display: flex;
+
+  height: calc(100vh - 114px - 118px);
+  width: calc(100vw - 207px - 207px);
+
+  margin-left: 207px;
+  margin-top: 118px;
+
+  padding: 15px;
+
+  overflow: auto;
+}

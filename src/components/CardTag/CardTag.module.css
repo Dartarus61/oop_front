@@ -1,0 +1,25 @@
+.tag {
+  border-radius: 50px;
+
+  width: 83px;
+  height: 20px;
+
+  text-align: center;
+
+  margin-right: 5px;
+
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.tagOrange {
+  border: 1.5px solid #d29335;
+  color: #d29335;
+}
+
+.tagGreen {
+  border: 1.5px solid #83d235;
+  color: #83d235;
+}

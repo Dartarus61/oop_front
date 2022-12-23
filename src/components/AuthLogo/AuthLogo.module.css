@@ -1,0 +1,22 @@
+.appName {
+  margin-top: 35px;
+}
+
+.appLogo {
+  font-family: 'Inter', sans-serif;
+  color: #2f383e;
+  font-weight: 700;
+  font-size: 32px;
+  margin-bottom: -6px;
+  margin-top: 35px;
+  text-align: center;
+}
+
+.appSubLogo {
+  font-family: 'Rubik', sans-serif;
+  color: #2f383e;
+  font-weight: 500;
+  font-size: 12px;
+  margin-bottom: 40px;
+  text-align: center;
+}

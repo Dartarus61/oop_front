@@ -1,0 +1,115 @@
+.commetList {
+  margin-top: 150px;
+  height: 100%;
+}
+
+.commetTitle {
+  font-family: 'Rubik';
+  font-weight: 500;
+  font-size: 24px;
+
+  color: #000000;
+
+  padding: 10px 0 10px;
+
+  border-top: 3px solid #d0e0eb;
+}
+
+.commentContainer {
+  padding: 10px;
+
+  background-color: #abc1d1;
+  border-radius: 6px;
+
+  margin-bottom: 5px;
+}
+
+.sendComment {
+  background-color: #abc1d1;
+
+  border-radius: 10px;
+
+  width: 100%;
+  height: 91px;
+
+  padding: 10px;
+}
+
+.inputContainer {
+  width: 100%;
+  height: 100%;
+
+  background-color: #fff;
+
+  border-radius: 10px;
+
+  outline: none;
+  position: relative;
+}
+
+.input {
+  width: 78%;
+  height: 100%;
+
+  border-radius: 10px;
+  border: transparent;
+  outline: none;
+
+  resize: none;
+  padding: 5px 10px;
+}
+
+.buttonContainer {
+  background-color: #c4d1dd;
+
+  height: 100%;
+  width: 20%;
+
+  padding: 15px;
+
+  border-radius: 10px;
+
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.button {
+  width: 100%;
+  height: 100%;
+
+  background-color: #8fabbf;
+  border-radius: 5px;
+  border: transparent;
+
+  color: #2f383e;
+
+  font-family: 'Rubik', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+
+  text-align: center;
+
+  cursor: pointer;
+
+  outline: none;
+
+  box-shadow: 0px 4px 9px -2px rgba(0, 0, 0, 0.25);
+
+  transition: background 0.2s linear;
+}
+
+.button:hover {
+  background-color: #afc9db;
+}
+
+.button:disabled {
+  background-color: #d0d0d0;
+  cursor: auto;
+}
+
+.margin {
+  width: 100%;
+  height: 10px;
+  background: #fff;
+}

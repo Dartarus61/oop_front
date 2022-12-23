@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.button {
+  padding: 8px 24px;
+
+  background: #8fabbf;
+  border-radius: 13px;
+
+  cursor: pointer;
+
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #2f383e;
+
+  transition: background 0.1s linear;
+}
+
+.button:hover {
+  background-color: #afc9db;
+}
