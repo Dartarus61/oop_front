@@ -1,4 +1,4 @@
-import { BrowserRouter } from 'react-router-dom'
+import { HashRouter } from 'react-router-dom'
 import { useEffect } from 'react'
 import s from './App.module.css'
 import { useAction } from './hooks/useAction'
@@ -12,11 +12,11 @@ const App = () => {
   }, [])
 
   return (
-    <BrowserRouter>
+    <HashRouter>
       <div className={s.App}>
         <AppRouter />
       </div>
-    </BrowserRouter>
+    </HashRouter>
   )
 }
 

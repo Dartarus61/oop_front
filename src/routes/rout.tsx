@@ -9,7 +9,7 @@ import CreateArticlePage from '../pages/CreateArticlePage/CreateArticlePage'
 import UserPage from '../pages/UserPage/UserPage'
 import ForgetPassword from '../pages/ForgetPassword/ForgetPassword'
 import ResetPassword from '../pages/ResetPassword/ResetPassword'
-import AdminPage from "../pages/AdminPage/AdminPage";
+import AdminPage from '../pages/AdminPage/AdminPage'
 
 interface IRouter {
   path: string
@@ -22,8 +22,7 @@ export const publicRoutes: Array<IRouter> = [
   { path: '/login', element: <LoginPage /> },
   { path: '/forgetPassword', element: <ForgetPassword /> },
   { path: '/resetPassword', element: <ResetPassword /> },
-  { path: '/section/:section/:subsection', element: <SectiionPage /> },
-  { path: '/subSection', element: <SubSectionPage /> },
+  { path: '/section/:section/:subsection', element: <SubSectionPage /> },
   { path: '/article/:id', element: <ArticlePage /> },
   { path: '*', element: <Navigate to='/main' replace /> },
 ]

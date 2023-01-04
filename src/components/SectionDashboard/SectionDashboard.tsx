@@ -16,7 +16,6 @@ const SectionDashboard: FC<ISectionDashboard> = ({ title }) => {
           Этот раздел посвящен тому, этому, поэтому. Конец описания раздела
         </div>
       </div>
-      <div className={s.cardTitle}>Список подразделов</div>
     </div>
   )
 }
