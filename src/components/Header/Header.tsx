@@ -37,12 +37,19 @@ const Header: FC = () => {
           <div>
             <CircleNotificationsOutlinedIcon className={s.icon} />
           </div>
-          <div>
-            <AddCircleOutlineIcon
-              onClick={() => navigator('/createArticle')}
-              className={s.icon}
-            />
-          </div>
+          {userProfile?.roles.some(
+            role => role.toString() === 'ADMIN' || role.toString() === 'CREATOR'
+          ) ? (
+            <div>
+              <AddCircleOutlineIcon
+                onClick={() => navigator('/createArticle')}
+                className={s.icon}
+              />
+            </div>
+          ) : (
+            ''
+          )}
+
           <ClickAwayListener onClickAway={() => setMenuOpen(false)}>
             <div className={s.profileMenu}>
               <AccountCircleOutlinedIcon
